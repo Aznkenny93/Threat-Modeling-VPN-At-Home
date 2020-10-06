@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - semantic-ui-vue > lodash:
+        patched: '2020-10-06T13:19:36.395Z'
+    - testdouble > lodash:
+        patched: '2020-10-06T13:19:36.395Z'
+    - testdouble > quibble > lodash:
+        patched: '2020-10-06T13:19:36.395Z'
+  'npm:lodash:20180130':
+    - moments > inquirer > lodash:
+        patched: '2020-10-06T13:19:36.395Z'
+    - moments > myconf > babel > lodash:
+        patched: '2020-10-06T13:19:36.395Z'
+    - moments > myconf > babel > babel-core > lodash:
+        patched: '2020-10-06T13:19:36.395Z'
+    - moments > myconf > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2020-10-06T13:19:36.395Z'
+  'npm:minimatch:20160620':
+    - moments > myconf > babel > glob > minimatch:
+        patched: '2020-10-06T13:19:36.395Z'
+    - moments > myconf > babel > babel-core > minimatch:
+        patched: '2020-10-06T13:19:36.395Z'
+    - moments > myconf > babel > babel-core > regenerator > commoner > glob > minimatch:
+        patched: '2020-10-06T13:19:36.395Z'
